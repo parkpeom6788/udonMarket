@@ -11,12 +11,12 @@ public class MemberVO implements Serializable {
 	private String memberNo;
 	private String address;
 	private String tel;
-	private String type;
+	private int type;
 	
 	public MemberVO() {
 		super();
 	}
-	public MemberVO(String id, String password, String name, String memberNo, String address, String tel, String type) {
+	public MemberVO(String id, String password, String name, String memberNo, String address, String tel, int type) {
 		super();
 		this.id = id;
 		this.password = password;
@@ -62,10 +62,10 @@ public class MemberVO implements Serializable {
 	public void setTel(String tel) {
 		this.tel = tel;
 	}
-	public String getType() {
+	public int getType() {
 		return type;
 	}
-	public void setType(String type) {
+	public void setType(int type) {
 		this.type = type;
 	}
 	@Override
@@ -73,4 +73,5 @@ public class MemberVO implements Serializable {
 		return "MemberVO [id=" + id + ", password=" + password + ", name=" + name + ", memberNo=" + memberNo
 				+ ", address=" + address + ", tel=" + tel + ", type=" + type + "]";
 	}
+	
 }
