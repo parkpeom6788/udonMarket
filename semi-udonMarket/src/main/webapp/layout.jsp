@@ -39,7 +39,7 @@
 </head>
 
 <body>
-	 <!-- Spinner Start -->
+    <!-- Spinner Start -->
     <div id="spinner" class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
         <div class="spinner-border text-primary" role="status"></div>
     </div>
@@ -80,15 +80,10 @@
     <!-- Page Header Start -->
     <div class="container-fluid page-header mb-5 wow fadeIn" data-wow-delay="0.1s">
         <div class="container">
-            <h1 class="display-3 mb-3 animated slideInDown"></h1>
+            <h1 class="display-3 mb-3 animated slideInDown">Udon</h1>
         </div>
     </div>
     <!-- Page Header End -->
-    
-    
-    <!-- Main 여기에 import -->
-
-    <!-- Main 끝 -->
 
 
     <!-- Footer Start -->
@@ -123,7 +118,7 @@
         </div>
     </div>
     <!-- Footer End -->
-
+    
 
     <!-- Back to Top -->
     <a href="#" class="btn btn-lg btn-primary btn-lg-square rounded-circle back-to-top"><i class="bi bi-arrow-up"></i></a>

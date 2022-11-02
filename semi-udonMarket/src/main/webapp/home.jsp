@@ -12,7 +12,7 @@
 	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
 	
 	 <!-- Favicon -->
-    <link href="images/favicon.ico" rel="icon">
+    <link href="img/favicon.ico" rel="icon">
 
     <!-- Google Web Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -82,7 +82,7 @@
         <div id="header-carousel" class="carousel slide" data-bs-ride="carousel">
             <div class="carousel-inner">
                 <div class="carousel-item active">
-                    <img class="w-100" src="/carousel-1.jpg" alt="Image">
+                    <img class="w-100" src="img/carousel-1.jpg" alt="Image">
                     <div class="carousel-caption">
                         <div class="container">
                             <div class="row justify-content-start">
@@ -112,7 +112,7 @@
             <div class="row g-4">
                 <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
                     <div class="bg-white text-center h-100 p-4 p-xl-5">
-                        <img class="img-fluid mb-4" src="images/icon-1.png" alt="">
+                        <img class="img-fluid mb-4" src="img/icon-1.png" alt="">
                         <h4 class="mb-3">상점이름</h4>
                         <p class="mb-4">상점소개글</p>
                         <a class="btn btn-outline-primary border-2 py-2 px-4 rounded-pill" href="">View More</a>
