@@ -4,7 +4,7 @@ import org.apache.tomcat.dbcp.dbcp2.BasicDataSource;
 
 public class DataSourceManager {
 	private static DataSourceManager instance = new DataSourceManager();
-	private static DataSource datasource;
+	private  DataSource datasource;
 	
 	public DataSourceManager() {
 		BasicDataSource dbcp = new BasicDataSource();
@@ -13,7 +13,7 @@ public class DataSourceManager {
 		dbcp.setPassword("tiger");
 		datasource = dbcp;
 	}
-	public DataSourceManager getInstance() {
+	public static DataSourceManager getInstance() {
 		return instance;
 	}
 	public DataSource getDataSource() {
